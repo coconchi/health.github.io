@@ -2,8 +2,8 @@ html, body{
   height:100%;
   margin:0;
   padding: 0;
-  background-color: #E8E8E8;
-  border: WhiteSmoke;
+/*  background-color: #E8E8E8;
+*/  border: WhiteSmoke;
 }
 
 #logo{
@@ -14,25 +14,25 @@ html, body{
 }
 
 #project_par *{
-  background-color: #aabedd;
-  color: #3f3b3c;
-  padding: 20px;
-  /* margin: 20px white; */
+  margin: auto;
+  width: 80%
 }
 
 .h1Jumbo{
   text-align: right;
-  color: #3f3b3c;
+  color: #47b1d1;
 }
 
-#gitLink{
+/*#gitLink{
   color: #e8e9ed;
   background-color: #616163;
-}
-/*.btn-secondary {
-    background-image: none;
-    filter: none;
 }*/
+.btn-light {
+/*    background-image: none;
+    filter: none;
+  background-color: #e6e9eb;*/
+
+}
 
 .card-deck{
   padding: 10px;

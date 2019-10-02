@@ -4,18 +4,22 @@
     <meta charset="utf-8">
     <title>Health Project</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/cssMaster.css">
-    <link rel="stylesheet" type="text/css" href="css/footercss.css">
+
     <!-- Need to have JQuery and Javascript for DropDown Actions to work -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+
   </head>
-  <body>
+  <body style="">
+      <div id="navBar"></div>
+      <script>
+          $('#navBar').load('navi.html');
+      </script>
 
     <!-- jumbotron  -->
     <div class="container">
-      <div class="jumbotron" id="jumbotron_health" style="background-image:url(img/health1.jpg); color: #4b7c91; text-align: left; background-size: cover; height: 300px">
+      <div class="jumbotron" id="jumbotron_health" style="background-color: #bce8e5; color: #6f7070; text-align: left; background-size: cover; height: 300px">
         <h1><strong>Healthcare Model</strong></h1>
       </div>
     </div>
@@ -46,19 +50,10 @@
     expenditures and economic variables, such as income inequality. </p>
     <p> <strong>Project status: </strong> In development.</p>
     <p>
-<!--     <a href= 'https://github.com/lnpp/HealthABM' <button type="button" class="btn btn-secondary btn-lg" id='gitLink'>Access the model in our Git repository</button></a> -->
+    <a class="btn btn-info" href="https://github.com/lnpp/HealthABM" role="button">Git repository</a>
   </p>
-        <div class="container" align=center>
-          <img class="img-fluid-center" src="img/health_ppl.png" display=block margin-left=auto margin-right=auto width=50%></img>
-        </div>
       </div>
     </div>
-
-    <footer id='footer'><</footer>
-    <script>
-      $('#footer').load('footer.html');
-    </script>
-
 
   </body>
 
