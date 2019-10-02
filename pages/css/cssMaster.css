@@ -1,0 +1,40 @@
+html, body{
+  height:100%;
+  margin:0;
+  padding: 0;
+}
+
+#logo{
+  width: 50px;
+}
+#main{
+  overflow: auto;
+}
+
+#project_par *{
+  background-color: #aabedd;
+  color: #3f3b3c;
+  padding: 20px;
+  /* margin: 20px white; */
+}
+
+.h1Jumbo{
+  text-align: right;
+  color: #3f3b3c;
+}
+
+#gitLink{
+  color: #e8e9ed;
+  background-color: #616163;
+}
+/*.btn-secondary {
+    background-image: none;
+    filter: none;
+}*/
+
+.card-deck{
+  padding: 10px;
+  margin: 10px;
+  border: 10px;
+}
+
